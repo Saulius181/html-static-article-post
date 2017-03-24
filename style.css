@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;	
+  /* Old browsers */
+  background: #741E32;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #741E32);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #741E32);
+}
+
+h1 {
+  color: #EEE;
+  font-family: 'Crimson Text', serif;
+  font-size: 34px;
+  padding-top: 72px;
+  text-align: left;
+  width: 65%;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  width: 80%;
+}
+
+p {
+  color: #EEE;
+  font-size: 20px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 100;
+  line-height: 28px;
+  text-align: left;
+  width: 100%;
+}
+
+.byline {
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.65);
+  display: block;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 10px;
+  padding: 10px;
+  position: relative;
+  top: 85%;
+  width: 65%;
+}
+
+.content {
+  padding: 35px;
+}
+
+.image {
+  border-top: 10px solid rgba(255, 255, 255, 0.3);
+  background-image: url("https://placeimg.com/1000/320/arch");
+  background-size: cover;
+  background-position: center;
+  height: 270px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 75px;
+  height: 75px;
+ object-fit: cover; 
+}
